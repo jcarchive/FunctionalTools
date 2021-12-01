@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace>Jcarchive</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>FunctionalTools</PackageId>
+        <PackageTags>Functional programming;Functional</PackageTags>
+        <Title>Functional tools for C#</Title>
+        <Authors>Jose C. Chavez</Authors>
+        <Description>This library provides extensions and tools for a functional style programming with C#</Description>
+        <Company>Jcarchive</Company>
+        <PackageReleaseNotes>
+            - Added Filter extension for IEnumerable
+            - Added ForEach extension for IEnumerable
+            - Added Map extension for IEnumerable
+            - Added Reduce extension for IEnumerable
+            - Added ToCollection method for ICollection generation
+            - Added ToReadOnlyCollection method for IReadOnlyCollection generation
+            - Added ToList method for IList generation
+            - Added FromRange method for IEnumerable generation 
+            - Added ToSet method for ISet generation
+            - Added ToReadOnlySet method for IReadOnlySet generation
+        </PackageReleaseNotes>
+        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    </PropertyGroup>
+
+</Project>
