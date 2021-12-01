@@ -1,1 +1,0 @@
-# Extensions and tools for functional style programming for C#
